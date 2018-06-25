@@ -1,5 +1,7 @@
 # Compte à rebours (electron)
 
+![Copie d'écran](screenshot.png)
+
 **Compte à rebours créé avec le framework electron.**
 
 
