@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Compte à rebours</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    
+    <h1>Vacances à Romagne (86)</h1>
+
+    <ul id="countdown">
+  <li id="jours">
+    <div id="nbJours">0</div>
+    <div class="timeDescription">jours</div>
+    </li>
+  <li id="heures">
+    <div id="nbHeures">0</div>
+    <div class="timeDescription">heures</div>
+    </li>
+  <li id="minutes">
+    <div id="nbMinutes">0</div>
+    <div class="timeDescription">minutes</div>
+    </li>
+  <li id="secondes">
+    <div id="nbSecondes">0</div>
+    <div class="timeDescription">secondes</div>
+  </li>
+</ul>
+
+<p><a href="https://electronjs.org/docs/tutorial/first-app">source 1</a>&nbsp;<a href="http://www.codeblocq.com/2016/06/Build-your-First-Electron-App/">source 2</a></p>
+
+    <script>
+      // You can also require other files to run in this process
+      require('./index.js')
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

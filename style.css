@@ -1,0 +1,38 @@
+body {
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+}
+
+h1 { text-align: center; }
+
+p {
+  text-align: center;
+  /*font-size: 60px;*/
+  margin-top:0px;
+  font-size: xx-small;
+}
+ul {
+width: 75%;
+margin : 25px auto;
+}
+ul li {
+display: inline-block;
+background-color: #f5f5f5;
+list-style: none;
+width: 100px;
+//min-height: 100px;
+text-align: center;
+border: 1px solid transparent;
+font-family: Roboto, sans-serif;
+//padding: 15px;
+}
+
+#nbJours, #nbHeures, #nbMinutes, #nbSecondes {
+//margin-bottom: 10px;
+font-size: 64px;
+font-weight: 100;
+color: #888;
+}
+.timeDescription {
+//font-weight: bold;
+}
