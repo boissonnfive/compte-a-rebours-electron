@@ -31,7 +31,7 @@ const myFormat = winston.format.printf(({ level, message, label, timestamp }) =>
 //   return `${timestamp} [${label}] ${level}: ${message}`;
 // });
 const logger = winston.createLogger({
-    level: 'debug',
+    level: 'info',
     format: winston.format.combine(
       winston.format.colorize({ all: true }),
       winston.format.label({ label: 'Paramètres' }),
